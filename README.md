@@ -11,6 +11,6 @@
 ```bash
 conda create -n test_batch_size python=3.10
 conda activate test_batch_size
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 conda install tqdm
 ```
